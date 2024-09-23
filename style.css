@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    background-color: #343a40;
+    height: 100px;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header img {
+    height: 90%;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline;
+    font-size: 44px;
+    vertical-align: middle;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin-top: 175px; 
+    height: 350px;
+    background-color: rgb(248, 239, 222);
+    width: 450px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    
+}
+/* .container:hover ~ .body_1 {
+    filter: blur(5px);
+} */
+
+body{
+    
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/virtual-search-engine-website-in-3d-powerpoint-background_a242c65ba2__960_540.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    z-index: 11;
+    
+}
+
+
+
+.search-bar input {
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #1a242e;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+    border-color: #007bff;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #0a7af1;
+    transform: translateY(-3px);
+}
+
+#clearHistory {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#clearHistory:hover {
+    background-color: #c82333;
+    transform: translateY(-3px);
+}
+
+#searchHistory {
+    list-style: none;
+    padding: 0;
+}
+
+#searchHistory li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
